@@ -69,6 +69,11 @@ li {
 	width: 100%;
 }
 
+.fullname {
+	display: inline-block;
+	white-space: nowrap;
+}
+
 #header {
 	width: 100%;
 }
