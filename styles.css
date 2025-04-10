@@ -51,3 +51,14 @@ li {
 	float: left;
 	margin-right: 1em;
 }
+
+#header h1 {
+	white-space: nowrap;
+	margin: 0;
+	padding: 0;
+	font-size: 2rem;
+}
+
+#header {
+	min-width: 300px;
+}
