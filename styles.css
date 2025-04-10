@@ -9,12 +9,6 @@ body {
 	-ms-transform: translateX(-50%) translateY(-50%);
 	-webkit-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
-
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-
-
 	width: 680px;
 }
 
@@ -31,18 +25,32 @@ body {
 
 table {
 	font-weight: normal;
+	table-layout: fixed;
+	width: 100%;
 }
 
 td {
-	display: block;
+	display: table-cell;
 	margin-left: 5%;
+	width: 75%;
+	padding-left: 20px;
+}
+
+th {
+	width: 25%;
+	vertical-align: top;
+}
+
+.horiz {
+	max-width: 100%;
+	height: auto;
 }
 
 ul {
 	text-decoration: none;
 	list-style: none;
 	margin-left: -2.4em;
-	margin-top: -15px;
+	margin-top: 5px;
 	padding-top: 0;
 }
 
@@ -57,8 +65,14 @@ li {
 	margin: 0;
 	padding: 0;
 	font-size: 2rem;
+	display: block;
+	width: 100%;
 }
 
 #header {
-	min-width: 300px;
+	width: 100%;
+}
+
+#main {
+	clear: both;
 }
